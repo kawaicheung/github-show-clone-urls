@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Show Clone URLs",
+  "version": "1.0",
+  "description": "Shows the git checkout URL on GitHub repo pages",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
