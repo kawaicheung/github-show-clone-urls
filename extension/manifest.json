@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "GitHub Show Clone URLs",
-  "version": "1.0",
-  "description": "Shows the git checkout URL on GitHub repo pages",
+  "version": "1.1",
+  "description": "Shows the git clone URL on GitHub repo pages",
   "content_scripts": [
     {
       "matches": ["https://github.com/*/*"],
